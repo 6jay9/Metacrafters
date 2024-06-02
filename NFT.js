@@ -4,7 +4,7 @@ function mintNFT(id, Title, Author) {
     id: id,
     Title: Title,
     Author: Author,
-    
+
   };
   nfts.push(nftMetadata);
 }
@@ -12,7 +12,7 @@ function listNFTs() {
   for (let i = 0; i < nfts.length; i++) {
     console.log("Title: " + nfts[i].Title);
     console.log("Author: " + nfts[i].Author);
-    
+
   }
 }
 function getTotalSupply() {
